@@ -53,7 +53,7 @@ function AuthPage() {
       <FlexRow>
         <h2>{isLogin ? '로그인' : '회원가입'}</h2>
         <StyledButton onClick={() => setIsLogin(!isLogin)}>
-          {isLogin ? '회원가입으로 전환' : '로그인으로 전환'}
+          {isLogin ? '회원가입' : '로그인'}
         </StyledButton>
       </FlexRow>
       <form onSubmit={handleSubmit}>
